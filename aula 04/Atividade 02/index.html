@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de CPF</title>
+    <link rel="stylesheet" href="/aula 04/Atividade 02/style.css">
+</head>
+<body>
+
+<form aria-labelledby="titulo-form">
+    <h1 id="titulo-form">Cadastro</h1>
+
+    <!-- Nome -->
+    <div class="campo">
+        <label for="usuario">Nome completo</label>
+        <input 
+            id="usuario" 
+            type="text" 
+            placeholder="Insira seu nome"
+            required
+            aria-required="true"
+        >
+    </div>
+
+    <!-- Email -->
+    <div class="campo">
+        <label for="email">E-mail</label>
+        <input 
+            id="email" 
+            type="email" 
+            placeholder="exemplo@dominio.com"
+            required
+            aria-required="true"
+        >
+    </div>
+
+    <!-- Senha -->
+    <div class="campo">
+        <label for="senha">Senha</label>
+        <input 
+            id="senha" 
+            type="password" 
+            placeholder="Insira sua senha"
+            required
+            aria-required="true"
+        >
+    </div>
+
+    <!-- CPF -->
+    <div class="campo">
+        <label for="cpf">CPF</label>
+        <input 
+            id="cpf" 
+            type="text"
+            inputmode="numeric"
+            placeholder="000.000.000-00"
+            required
+            aria-required="true"
+        >
+    </div>
+
+    <!-- Data de nascimento -->
+    <div class="campo">
+        <label for="dataNascimento">Data de nascimento</label>
+        <input 
+            id="dataNascimento" 
+            type="date" 
+            required
+            aria-required="true"
+        >
+    </div>
+
+    <!-- Gênero -->
+    <fieldset>
+        <legend>Gênero</legend>
+
+        <label class="radio">
+            <input type="radio" name="genero" value="masculino" required>
+            Masculino
+        </label>
+
+        <label class="radio">
+            <input type="radio" name="genero" value="feminino">
+            Feminino
+        </label>
+
+        <label class="radio">
+            <input type="radio" name="genero" value="outros">
+            Outros
+        </label>
+    </fieldset>
+
+    <button type="submit">Enviar</button>
+
+    </form>
+        <script src="/aula 04/Atividade 02/script.js">
+        </script>
+    </body>
+</html>
