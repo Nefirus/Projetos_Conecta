@@ -1,0 +1,51 @@
+/*Define a aparencia geral da pagina*/
+body{
+    font-family: arial, sans-serif; /* Tipo de leitura*/
+    background-color: #9d0ca0; /* Cor do fundo geral */
+    color: #333; /* Cor do texto */
+    margin: 0; /* remove as margens padrão */
+}
+/*Cabeçalho*/
+header{
+    background-color: #9900cc; /*Cor de fundo azul*/
+    color: white; /*Texto Branco*/
+    text-align: center; /*Texto centralizado*/
+    padding: 20px; /*Espaço interno*/
+}
+/*Menu de navegação*/
+nav{
+    background-color: #333; /*Cor de fundo azul*/
+    text-align: center; /*Alinhando o texto*/
+    padding: 10px; /*Espaço interno*/
+}
+
+nav a{
+    color: white; /*links em branco*/
+    margin: 0 10px; /*espaço entre links*/
+    text-decoration: none; /*Remove sublinhado*/
+}
+
+nav a:houver {
+    text-decoration: underline; /*Sublinha ao passar o mouse*/
+}
+
+/*Área principal*/
+main{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px; /*cantos arrendodados*/
+}
+
+/*Secções e artigos*/
+section, article{
+    margin-bottom: 20px;
+}
+
+/*Rodapé*/
+footer{
+    background-color: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
